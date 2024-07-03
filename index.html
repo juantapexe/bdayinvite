@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invitation</title>
+    <script>
+        function showDialog() {
+            let response = confirm("Are you free on the 6th?");
+            if (response) {
+                window.location.href = "invitation.html";
+            } else {
+                alert("Maybe next time!");
+            }
+        }
+    </script>
+</head>
+<body onload="showDialog()">
+</body>
+</html>
