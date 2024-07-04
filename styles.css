@@ -23,14 +23,14 @@ body {
 }
 
 h1 {
-    color: #009688; /* Teal color for emphasis */
+    color: #ff6699; /* Pink color for emphasis */
     font-family: 'Brush Script MT', cursive;
     font-size: 3.5vw; /* Responsive font size */
     margin-bottom: 10px;
 }
 
 h2 {
-    color: #ff6699; /* Pink color for floral theme */
+    color: #009688; /* Teal color for floral theme */
     font-size: 3vw; /* Responsive font size */
     margin-bottom: 10px;
 }
