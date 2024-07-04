@@ -1,0 +1,32 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('images/your-background-image.jpg'); /* Use your own image here */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.invitation {
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent background */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #ff6699;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 36px;
+}
+
+p {
+    font-size: 20px;
+    color: #333;
+    font-family: 'Georgia', serif;
+}
