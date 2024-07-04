@@ -13,7 +13,7 @@ body {
     position: relative;
     width: 100%;
     height: 100%;
-    background-image: url('template Large.png'); /* Use your own image here */
+    background-image: url('images/your-background-image.jpg'); /* Use your own image here */
     background-size: cover;
     background-position: center;
     display: flex;
@@ -23,24 +23,21 @@ body {
 
 .invitation {
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent background */
-    padding: 20px;
-    border-radius: 15px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-    max-width: 80%;
+    color: #ffffff; /* Text color */
 }
 
 h1 {
-    color: #ff6699;
-    font-family: 'Brush Script MT', cursive;
     font-size: 3.5vw; /* Responsive font size */
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 3vw; /* Responsive font size */
+    margin-bottom: 10px;
 }
 
 p {
     font-size: 2vw; /* Responsive font size */
-    color: #333;
-    font-family: 'Georgia', serif;
     line-height: 1.6;
     margin-bottom: 10px;
 }
