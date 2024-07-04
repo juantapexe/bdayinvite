@@ -7,7 +7,7 @@ body {
     align-items: center;
     height: 100vh;
     background-color: #fff0f5; /* Fallback background color */
-    background-image: url('images/your-background-image.jpg'); /* Use your own image here */
+    background-image: url('template Large.png'); /* Use your own image here */
     background-size: cover;
     background-position: center;
 }
