@@ -6,24 +6,26 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #fff0f5;
+    background-color: #fff0f5; /* Fallback background color */
+    background-image: url('images/your-background-image.jpg'); /* Use your own image here */
+    background-size: cover;
+    background-position: center;
 }
 
 .invitation-container {
     position: relative;
     width: 100%;
     height: 100%;
-    background-image: url('images/your-background-image.jpg'); /* Use your own image here */
-    background-size: cover;
-    background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgba(255, 255, 255, 0.4); /* Transparent white background */
 }
 
 .invitation {
     text-align: center;
     color: #ffffff; /* Text color */
+    padding: 20px;
 }
 
 h1 {
