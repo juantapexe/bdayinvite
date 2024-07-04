@@ -13,7 +13,7 @@ body {
     width: 100%;
     max-width: 800px;
     height: auto;
-    background-image: url('template.png'); /* Use your own image here */
+    background-image: url('your-background-image.jpg'); /* Use your own image here */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
