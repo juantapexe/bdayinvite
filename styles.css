@@ -2,16 +2,20 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fff0f5;
 }
 
 .invitation-container {
     position: relative;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     background-image: url('template Large.png'); /* Use your own image here */
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,11 +33,14 @@ body {
 h1 {
     color: #ff6699;
     font-family: 'Brush Script MT', cursive;
-    font-size: 36px;
+    font-size: 3.5vw; /* Responsive font size */
+    margin-bottom: 20px;
 }
 
 p {
-    font-size: 20px;
+    font-size: 2vw; /* Responsive font size */
     color: #333;
     font-family: 'Georgia', serif;
+    line-height: 1.6;
+    margin-bottom: 10px;
 }
