@@ -6,24 +6,31 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #fff0f5; /* Fallback background color */
-    background-image: url('template Large.png'); /* Use your own image here */
+    background-image: url('images/your-background-image.jpg'); /* Use your own image here */
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
+    color: #333; /* Default text color */
 }
 
 .invitation {
     text-align: center;
-    color: rgba(255, 255, 255, 0.9); /* Semi-transparent white text */
+    max-width: 80%;
     padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent background */
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 }
 
 h1 {
+    color: #009688; /* Teal color for emphasis */
+    font-family: 'Brush Script MT', cursive;
     font-size: 3.5vw; /* Responsive font size */
     margin-bottom: 10px;
 }
 
 h2 {
+    color: #ff6699; /* Pink color for floral theme */
     font-size: 3vw; /* Responsive font size */
     margin-bottom: 10px;
 }
@@ -32,4 +39,12 @@ p {
     font-size: 2vw; /* Responsive font size */
     line-height: 1.6;
     margin-bottom: 10px;
+}
+
+.emphasis {
+    font-weight: bold;
+}
+
+.no-pink {
+    color: #009688; /* Teal color for no pink */
 }
