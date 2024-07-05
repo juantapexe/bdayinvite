@@ -18,29 +18,32 @@ body {
     padding: 20px;
     background-color: rgba(255, 255, 255, 0); /* Fully transparent background */
     position: absolute;
-    bottom: 10%;
+    top: 10%;
     width: 80%;
 }
 
 h1 {
     color: black;
     font-family: 'Brush Script MT', cursive;
-    font-size: 6vw; /* Larger font size */
+    font-size: 7vw; /* Larger font size */
     margin-bottom: 20px; /* Increased spacing */
 }
 
 h2 {
     color: black;
     font-family: 'Brush Script MT', cursive;
-    font-size: 5vw; /* Larger font size */
+    font-size: 7vw; /* Larger font size */
     margin-bottom: 15px; /* Increased spacing */
 }
 
 p {
     color: black;
     font-famnily: 'Brush Script MT', cursive;
-    font-size: 3.5vw; /* Responsive font size */
-    line-height: 1.8; /* Increased line height */
+    font-size: 5vw; /* Responsive font size */
+    line-height: 1.8;
+    posistion: absolute;
+    bottom: 10%
+    width: 80%/* Increased line height */
 }
 
 .emphasis {
