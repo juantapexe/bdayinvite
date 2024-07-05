@@ -17,27 +17,29 @@ body {
     text-align: center;
     padding: 20px;
     background-color: rgba(255, 255, 255, 0); /* Fully transparent background */
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    bottom: 10%;
+    width: 80%;
 }
 
 h1 {
     color: black;
     font-family: 'Brush Script MT', cursive;
-    font-size: 4vw; /* Larger font size */
+    font-size: 6vw; /* Larger font size */
     margin-bottom: 20px; /* Increased spacing */
 }
 
 h2 {
     color: black;
     font-family: 'Brush Script MT', cursive;
-    font-size: 3.5vw; /* Larger font size */
+    font-size: 5vw; /* Larger font size */
     margin-bottom: 15px; /* Increased spacing */
 }
 
 p {
     color: black;
     font-famnily: 'Brush Script MT', cursive;
-    font-size: 2.5vw; /* Responsive font size */
+    font-size: 3.5vw; /* Responsive font size */
     line-height: 1.8; /* Increased line height */
 }
 
