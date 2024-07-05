@@ -21,16 +21,22 @@ body {
 }
 
 h1 {
+    color: black;
+    font-family: 'Brush Script MT', cursive;
     font-size: 4vw; /* Larger font size */
     margin-bottom: 20px; /* Increased spacing */
 }
 
 h2 {
+    color: black;
+    font-family: 'Brush Script MT', cursive;
     font-size: 3.5vw; /* Larger font size */
     margin-bottom: 15px; /* Increased spacing */
 }
 
 p {
+    color: black;
+    font-famnily: 'Brush Script MT', cursive;
     font-size: 2.5vw; /* Responsive font size */
     line-height: 1.8; /* Increased line height */
 }
